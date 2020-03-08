@@ -1,0 +1,14 @@
+{
+    "name" : "Berkay`s Block Extension",
+    "version" : "1.0",
+    "description": "First Extension",
+    "permissions" : ["webRequest","webRequestBlocking","<all_urls>"],
+    "background" : {
+        "scripts" : ["app.js"]
+    },
+    "icons" : { 
+        "16" : "icon/block.svg"
+    },
+    "manifest_version" : 2
+
+}
